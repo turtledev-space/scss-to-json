@@ -2,22 +2,22 @@
   "name": "scss-to-json",
   "version": "2.0.0",
   "description": "A utility for converting SCSS variables files to JSON",
-  "homepage": "https://github.com/ryanbahniuk/scss-to-json",
+  "homepage": "https://github.com/turtledev-space/scss-to-json.git",
   "keywords": [
     "scss",
     "json"
   ],
   "author": {
-    "name": "Ryan Bahniuk",
-    "email": "ryan.bahniuk@gmail.com",
-    "url": "http://bahni.uk"
+    "name": "Nguyen Quoc Huy",
+    "email": "nqh.webdev@gmail.com",
+    "url": "https://nqhuy.dev"
   },
   "bin": {
     "scss-to-json": "./bin/scss-to-json"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ryanbahniuk/scss-to-json.git"
+    "url": "https://github.com/turtledev-space/scss-to-json.git"
   },
   "bugs": {
     "url": "https://github.com/ryanbahniuk/scss-to-json/issues"
@@ -30,16 +30,16 @@
   ],
   "main": "main.js",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 16.0.0"
   },
   "dependencies": {
     "cssmin": "^0.4.3",
     "minimist": "^1.2.0",
-    "node-sass": "^3.1.2, ^4.0.0"
+    "node-sass": "^6.0.1"
   },
   "devDependencies": {
     "cross-spawn": "2.0.0",
-    "eslint": "1.9.0",
+    "eslint": "4.17.0",
     "mocha": "2.2.5",
     "proxyquire": "1.6.0",
     "sinon": "1.15.4",
